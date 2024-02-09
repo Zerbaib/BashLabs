@@ -1,3 +1,5 @@
+#!/bin/bash
+
 read -p "Quelle est ton age: " age
 
 if [ $age -lt 18 ]

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 read -p "Quelle est ton prenom: " name
 read -p "Quelle est ton age: " age
 
