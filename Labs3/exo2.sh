@@ -1,11 +1,11 @@
 #!/bin/bash
 
-read -p "Enter a directory name: " directory
+read -p "Donne moi le chemin d'un repertoire: " directory
 
 echo
 
 if [ -d "$directory" ]; then
-    du -abh "$directory"
+	du -abh "$directory"
 else
-    echo "The directory '$directory' does not exist."
+	echo "Le repertoire '$directory' n'existe pas"
 fi
